@@ -1,0 +1,67 @@
+.section {
+    background-image: url(img/billboard.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+}
+
+.inline {
+    padding: 20px;
+}
+
+.lower {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    opacity: 0.8;
+    padding: 20px;
+    position: absolute;
+    top: 90%;
+    width: 96%;
+}
+
+.right {
+    font-size: 20px;
+}
+
+.left {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(19, 129, 207);
+    padding: 10px;
+    color: white;
+}
+
+.mid-container{
+    background-color: lightgray;
+    height: 400px;
+    width: 70%;
+    margin: 0px 210px;
+}
+
+.letter{
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
