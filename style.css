@@ -37,8 +37,8 @@
     opacity: 0.8;
     padding: 20px;
     position: absolute;
-    top: 90%;
-    width: 96%;
+    top: 92%;
+    width: 97%;
 }
 
 .right {
@@ -50,18 +50,102 @@
     background-color: rgb(19, 129, 207);
     padding: 10px;
     color: white;
-}
+} 
 
 .mid-container{
-    background-color: lightgray;
-    height: 400px;
+    background-color: whitesmoke;
+    height: 550px;
     width: 70%;
     margin: 0px 210px;
 }
 
 .letter{
     text-align: center;
-    justify-content: center;
-    padding-top: 40px;
+    /* justify-content: center; */
+    padding-top: 90px;
     font-size: 30px;
+    font-weight: 600;
+    color: gray;
+}
+
+.separator{
+    padding-left: 130px;
+    padding-top: 30px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-gap: 80px ;
+}
+
+.s1{
+    padding-left:20px;
+}
+.s2{
+    padding-left: 120px;
+}
+.s3{
+    padding-left: 170px;
+}
+.s1, .s2, .s3{
+    padding-top: 20px;
+}
+.grid-head-3, .grid-para-3{
+    padding-left: 120px;
+}
+.type{
+    font-size:30px ;
+    color: grey;
+}
+.type-2{
+    font-size: 15px;
+    color: gray;
+}
+.grid-head-2, .grid-para-2{
+    padding-left: 40px;
+}
+.flex-container{
+    display: flex;
+}
+
+.testimonials{
+    display: grid;
+    gap: 0px 80px;
+    grid-template-columns: auto;
+    margin: 0px 0px 0px 377px ;
+    padding: 100px 0px;
+    background-color: whitesmoke;
+    text-align: center;
+    height: 200px;
+    width: 50%;
+
+}
+.top{
+    margin-top: -30px;
+}
+.test{
+    text-transform:uppercase ;
+    color: grey;
+}
+.radius{
+    border-radius: 50px;
+}
+.grid-lower{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px 30px;
+    margin: 10px;
+    padding:  20px 20px 0px 20px;
+}
+
+.john, .doe{
+    color: gray;
+}
+.john{
+    font-size: 20px;
+}
+span, .doe{
+    font-size: 15px;
 }
