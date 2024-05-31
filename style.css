@@ -1,4 +1,4 @@
-.section {
+.billboard {
     background-image: url(img/billboard.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -148,4 +148,54 @@
 }
 span, .doe{
     font-size: 15px;
+}
+
+.brand{
+    opacity: 0.2;
+    background-color: grey;
+}
+.brand-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 10px 370px;    
+    margin: 0px;
+}
+.end-part{
+    background-color: rgb(55,55,55);
+    /* background-color: black; */
+    color: white;
+}
+.para{
+    font-size: 20px;
+}
+.end-btn{
+    display: flex;
+    background-color: rgb(69, 66, 66);
+    justify-content: space-around;
+    margin: 0px 374px;
+    padding: 10px;
+    gap: 90px;
+}
+.flex-end{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 20%;
+    margin-top: 100px;
+    
+}
+.end-li{
+    list-style-type: none;
+    margin-left: -30px;
+}
+.last-line{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 80px;
+    /* margin-bottom: 20px; */
+    padding-bottom: 10px;
+}
+.word{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
