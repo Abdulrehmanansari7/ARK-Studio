@@ -134,7 +134,7 @@
 }
 .grid-lower{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     gap: 10px 30px;
     margin: 10px;
     padding:  20px 20px 0px 20px;
@@ -198,4 +198,22 @@ span, .doe{
 .word{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.left:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.raise{
+    font-size: 35px;
+    color: #007bff;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin: 3px;
+    /* padding: 20px; */
+    /* border-radius: 50%; */
+    /* background-color: #fff; */
+}
+.raise:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px blue;
 }
